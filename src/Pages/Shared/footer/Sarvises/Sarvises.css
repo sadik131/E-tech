@@ -1,0 +1,36 @@
+.sarvises-container{
+    width: 95%;
+    margin: auto;
+    padding: 80px 0;
+}
+.sarvises{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.sarvis-card{
+    display: flex;
+    width: 50%;
+    margin: 10px 0;
+    align-items: center;
+}
+.sarvis-body{
+    margin: 0 15px;
+}
+.sarvis-body h3{
+    font-size: 19px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sarvis-body p{
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media only screen and (max-width: 600px){
+    .sarvises{
+        display: block;
+    }
+    .sarvis-card{
+        width: 100%;
+    }
+}

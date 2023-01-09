@@ -1,0 +1,143 @@
+.signIn-container {
+    display: flex;
+    align-items: center;
+    margin: 0 33px;
+    height: auto;
+}
+
+.img-container {
+    width: 45%;
+}
+.banner-content{
+    width: 100%;
+    position: absolute;
+    top: 10%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    margin: auto;
+}
+.signIn-container .banner-content img.logo{
+    width: 160px;
+    height: 40px;
+    margin-bottom: 90px;
+}
+.signIn-container .banner-content h1{
+    color: #292930;
+}
+.signIn-form {
+    width: 55%;
+    padding: 0 75px;
+}
+
+.signIn-container .img-container img {
+    height: 70%;
+    width: 100%;
+}
+
+.signIn-form .form-header {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.signIn-form .form-header a{
+    border: none;
+    font-size: 17px;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: #ff497c;
+    color: white;
+    cursor: pointer;
+    padding: 13px 43px;
+    transition: all ease-in-out;
+}
+.signIn-form .form-header a:hover{
+    transform: scale(1.1);
+    transition-duration:0.3s ;
+}
+.signIn-form .form-header h4 {
+    font-size: 18px;
+    margin-right: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.signIn-form form {
+    margin-top: 30px;
+}
+
+.signIn-form form h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #292930;
+    margin-bottom: 20px;
+}
+
+.signIn-form form h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #292930;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.signIn-form form input {
+    width: 100%;
+    height: 50px;
+    margin: 12px 0;
+    padding: 0 6px;
+    border: 1px solid #292930;
+    border-radius: 9px;
+}
+
+.signIn-form form input:focus {
+    border: none;
+    outline: 1px solid #1460ae;
+}
+.signIn-form form .form-button{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+} 
+.signIn-form form .form-button .forget{
+    border: none;
+    background: white;
+    font-size: 17px;
+    cursor: pointer;
+    color: #1460ae;
+} 
+.signIn-form form .form-button .signIn{
+    padding: 13px 43px;
+    border: none;
+    background: #3577f0;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all;
+}
+.signIn-form .form-button .signIn:hover{
+    transform: scale(1.1);
+    transition-duration:0.3s ;
+}
+
+@media only screen and (max-width: 600px){
+    .signIn-container{
+        height: auto;
+        margin: 0;
+        padding: 50px 10px;
+    }
+    .img-container{
+        display: none;
+    }
+    .signIn-form{
+        width: 100%;
+        padding: 0;
+    }
+    .signIn-form .form-header h4{
+        font-size: 16px;
+    }
+    .signIn-form .form-header a{
+        padding: 15px 20px;
+    }
+}

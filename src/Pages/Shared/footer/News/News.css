@@ -1,0 +1,83 @@
+.news-container {
+    background-image: url("https://new.axilthemes.com/demo/template/etrade/assets/images/bg/bg-image-5.jpg");
+    height: 350px;
+    width: 95%;
+    padding: 10px 50px;
+    margin: auto;
+}
+
+.top-titel {
+    display: flex;
+    align-items: center;
+    margin-top: 113px;
+
+}
+.news-container h1{
+    font-size: 2.9rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 20px 0px;
+}
+.top-icon {
+    background: #3577f0;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-titel svg {
+    font-size: 22px;
+    color: white;
+}
+
+.top-titel h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 8px;
+    color: #3577f0;
+    font-size: 17px;
+}
+.news-container form input{
+    width: 40%;
+    padding: 0 15px;
+    height: 53px;
+    border: 1px solid #adadad;
+    border-radius: 13px;
+    outline: none;
+    font-size: 20px;
+}
+.news-container form button{
+    height: 50px;
+    width: 157px;
+    font-size: 18px;
+    font-weight: 600;
+    background: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+@media only screen and (max-width: 600px){
+    .news-container{
+        height: auto;
+        width: 100%;
+        padding: 30px 10px;
+    }
+    .news-container .top-titel{
+        margin: 0;
+        justify-content: start;
+    }
+    .news-container h1{
+        font-size: 1.9rem;
+    }
+    .news-container form input{
+        width: 100%;
+    }
+    .news-container form button{
+        margin-top: 10px;
+    }
+    .news-container h1{
+        font-size: 1.4rem;
+    }
+}

@@ -1,0 +1,77 @@
+.feature-container {
+    margin: 46px 30px;
+    height: 68vh;
+    display: flex;
+}
+.feature-container {
+    margin: 46px 30px;
+    height: 68vh;
+    display: flex;
+}
+.feature-img {
+    width: 45%;
+    height: 100%;
+}
+.feature-img img{
+    height: 70%;
+    border-radius: 10px;
+    width: 100%;
+    object-fit: cover;
+}
+.feature-title {
+    width: 50%;
+    height: 81%;
+    margin: 0 20px;
+}
+.feature-title h3{
+    color: #3577f0;
+    font-weight: 400;
+    margin: 16px 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.feature-title h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(24, 24, 24);
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.feature-title p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    color: #777;
+    line-height: 1.7rem;
+}
+.feature-title button{
+    padding: 19px 57px;
+    background: transparent;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #e3e3e3;
+    font-size: 18px;
+    margin: 30px 0;
+    transition: 0.3s;
+}
+.feature-title button:hover{
+    background: #3577f0;
+    color: white;
+}
+@media only screen and (max-width: 600px){
+    .feature-container{
+        margin: auto;
+        height: auto;
+        display: block;
+    }
+    .feature2-container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .feature-img{
+        width: 95%;
+        margin: auto;
+    }
+    .feature-title{
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+    }
+}

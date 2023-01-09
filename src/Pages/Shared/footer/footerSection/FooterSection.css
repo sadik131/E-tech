@@ -1,0 +1,62 @@
+.hr{
+    height: 1px;
+    width: 100%;
+    background: #7777;
+}
+.footer-container{
+    padding: 85px 0;
+    width: 95%;
+    margin: auto;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.footer h3{
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.footer p{
+    font-size: 19px;
+    margin: 10px 0;
+    color: #777;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.footer p::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: #000;
+    display: block;
+    margin: auto; 
+    transition: 0.5s;
+}
+.footer p:hover::after{
+    width: 100%;
+}
+.footer p:hover{
+    color: #000;
+}
+.footer span{
+    font-size: 19px;
+    margin: 10px 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.footer .download{
+    display: flex;
+}
+.footer .download-link img{
+    display: block;
+    margin: 8px 3px;
+}
+
+@media only screen and (max-width: 600px){
+    .footer{
+        display: block;
+    }
+    .footer .title{
+        margin: 10px 0px;
+    }
+}

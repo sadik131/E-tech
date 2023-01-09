@@ -1,0 +1,53 @@
+.facility-container .titel {
+    text-align: center;
+}
+
+.facility-container .titel h1 {
+    font-size: 40px;
+}
+
+
+/* .facility-icon{
+    background: #ff497c;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+.facility-cards {
+    width: 100%;
+    display: flex;
+    column-gap: 15px;
+    padding: 43px 18px;
+    row-gap: 15px;
+    flex-wrap: wrap;
+}
+.facility-container {
+    padding: 14px 20px;
+}
+.facility-card h3{
+    margin-top: 20px;
+}
+.facility-card {
+    width: 24%;
+    height: 200px;
+    border: 1px solid rgb(211, 211, 211);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+.facility-card img{
+    width: 25%;
+}
+
+@media only screen and (max-width: 600px){
+    .facility-card{
+        width: 100%;
+    }
+}

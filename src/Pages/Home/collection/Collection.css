@@ -1,0 +1,75 @@
+.collection-container{
+    display: flex;
+    padding: 25px 25px;
+    height: auto;
+}
+.rich-collection{
+    background-image: url("https://new.axilthemes.com/demo/template/etrade/assets/images/product/poster/poster-01.png");
+    height: 250px;
+    width: 45%;
+    margin: 15px;
+    border-radius: 10px;
+}
+.rich-collection button{
+    font-size: 20px;
+    background: transparent;
+    color: gray;
+    border: none;
+}
+.vr-collection{
+    background-image: url("https://new.axilthemes.com/demo/template/etrade/assets/images/product/poster/poster-02.png");
+    background-size: cover;
+    width: 45%;
+    margin: 15px;
+    border-radius: 10px;
+}
+.rich-collection h1{
+    color: white;
+    font-size: 3.5rem;
+}
+.vr-collection p{
+    color: white;
+    font-size: 1.5rem;
+}
+.vr-collection h1{
+    color: white;
+    font-size: 3.5rem;
+}
+
+.rich-collection .collection-titel {
+    margin-left: 258px;
+    margin-top: 58px;
+}
+.vr-collection .collection-titel {
+    margin-top: 30px;
+    margin-left: 45px;
+}
+
+@media only screen and (max-width: 600px){
+    .collection-container{
+        display: block;
+    }
+    .rich-collection .collection-titel {
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .rich-collection .collection-titel h1{
+        font-size: 2.1rem;
+    }
+    .rich-collection{
+        width: 100%;
+        margin: 0;
+        height: auto;
+    }
+    .vr-collection .collection-titel {
+        margin-top: 30px;
+        margin-left: 15px;   
+    }
+    .vr-collection{
+        width: 100%;
+        margin: 0;
+    }
+    .vr-collection h1{
+        font-size: 2.1rem;
+    }
+}

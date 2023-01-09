@@ -1,0 +1,29 @@
+.ad-container{
+    background: #e5c4ba;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ad-container h3 , a{
+    color: white;
+}
+.ad-container a:hover{
+    color: #ff497c;
+    transition: all ease-in-out;
+    transition-duration: 500ms;
+}
+.ad-container .icon{
+    font-size: 18px;
+    margin-left: 20px;
+}
+.ad-container .icon:hover{
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px){
+    .ad-container{
+        display: none;
+    }
+}

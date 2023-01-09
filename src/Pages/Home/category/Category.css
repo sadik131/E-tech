@@ -1,0 +1,26 @@
+.cat-container{
+    padding: 70px 20px;
+}
+.cat-titel{
+    display: flex;
+    align-items: center;
+}
+.cat-icon{
+    background: #ff497c;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cat-titel svg{
+font-size: 22px;
+color: white;
+}
+.cat-titel h1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 8px;
+    color: #ff497c;
+    font-size: 17px;
+}
