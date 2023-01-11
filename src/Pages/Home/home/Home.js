@@ -1,4 +1,5 @@
 import React from 'react';
+import BannerSlider from '../banner/BannerSlider';
 import SimpleSlider from '../category/Category';
 import Category from '../category/Category';
 import Collection from '../collection/Collection';
@@ -8,7 +9,7 @@ import TopProduct from '../top-product/TopProduct';
 const Home = () => {
     return (
         <div>
-            <h1>slider</h1>
+            <BannerSlider></BannerSlider>
             <SimpleSlider></SimpleSlider>
             <TopProduct></TopProduct>
             {/* 1 */}

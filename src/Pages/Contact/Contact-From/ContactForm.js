@@ -4,8 +4,7 @@ import { Map, InfoWindow, Marker, GoogleApiWrapper } from 'google-maps-react';
 
 
 const ContactForm = () => {
-    const {google} = window.google
-    console.log(google)
+
     return (
         <>
             <div className='contact-container'>
@@ -37,7 +36,7 @@ const ContactForm = () => {
                     </div>
                 </div>
             </div>
-            <div className='map-container'>
+            {/* <div className='map-container'>
                 <Map google={this.props.google} zoom={14}>
 
                     <Marker onClick={this.onMarkerClick}
@@ -47,9 +46,9 @@ const ContactForm = () => {
                         {/* <div>
                             <h1>{this.state.selectedPlace.name}</h1>
                         </div> */}
-                    </InfoWindow>
+                    {/* </InfoWindow>
                 </Map>
-            </div>
+            </div> */}
         </>
     );
 }
