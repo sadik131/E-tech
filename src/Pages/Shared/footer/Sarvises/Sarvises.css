@@ -33,4 +33,7 @@
     .sarvis-card{
         width: 100%;
     }
+    .sarvis-body h3 {
+    font-size: 17px;
+    }
 }

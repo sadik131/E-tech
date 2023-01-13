@@ -48,17 +48,20 @@
 @media only screen and (max-width: 600px){
     .collection-container{
         display: block;
+        padding: 0 7px;
+        margin-bottom: 25px;
     }
     .rich-collection .collection-titel {
         margin-left: 0;
         margin-top: 0;
     }
     .rich-collection .collection-titel h1{
-        font-size: 2.1rem;
+        font-size: 1.6rem;
     }
     .rich-collection{
         width: 100%;
         margin: 0;
+        padding: 18px 2px;
         height: auto;
     }
     .vr-collection .collection-titel {

@@ -80,4 +80,7 @@
     .news-container h1{
         font-size: 1.4rem;
     }
+    .top-titel{
+        margin-top: 0;
+    }
 }

@@ -7,20 +7,25 @@
 }
 .cat-icon{
     background: #ff497c;
-    width: 35px;
-    height: 35px;
+    width: 25px;
+    height: 25px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .cat-titel svg{
-font-size: 22px;
+font-size: 17px;
 color: white;
 }
 .cat-titel h1{
     font-family: Arial, Helvetica, sans-serif;
     margin: 10px 8px;
     color: #ff497c;
-    font-size: 17px;
+    font-size: 16px;
+}
+@media only screen and (max-width: 600px){
+    .cat-container {
+        padding: 30px 5px;
+    }
 }

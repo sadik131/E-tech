@@ -45,6 +45,7 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .footer .download{
+    width: 100%;
     display: flex;
 }
 .footer .download-link img{
@@ -58,5 +59,14 @@
     }
     .footer .title{
         margin: 10px 0px;
+    }
+    .footer p{
+        font-size: 15px;
+    }
+    .download img{
+        width: 30%;
+    }
+    .footer h3{
+        font-size: 20px;
     }
 }

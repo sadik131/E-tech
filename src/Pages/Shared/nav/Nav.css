@@ -44,7 +44,9 @@
 .nav-container .hamburger{
     display: none;
 }
-
+.mobile-menu{
+    display: none;
+}
 
 @media only screen and (max-width: 640px){
 .nav-link{
@@ -61,5 +63,31 @@
     justify-content: space-between;
     margin: 0 10px;
     padding: 0 15px;
+}
+.mobile-menu.active{
+    display: block;
+    left: 0;
+}
+.mobile-menu{
+        background: #777;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: -500px;
+        z-index: 1010;
+        width: 100%;
+}
+.mobile-menu a{
+    display: block;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 18px;
+
+}
+.mobile-menu .cross{
+    display: flex;
+    font-size: 19px;
+    justify-content: end;
+    margin: 15px;
 }
 }

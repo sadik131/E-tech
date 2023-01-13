@@ -50,4 +50,14 @@
     .facility-card{
         width: 100%;
     }
+    .facility-container{
+        padding: 47px 0;
+    }
+    .facility-container .titel h1 {
+        font-size: 23px;
+    }
+    .facility-card h3{
+        font-size: 15px;
+        text-align: center;
+    }
 }
